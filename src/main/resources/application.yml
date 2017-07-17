@@ -1,0 +1,10 @@
+---
+server:
+  port: 9411
+spring:
+  application:
+    name: amisoft-service-zipkin
+  cloud:
+    consul:
+      host: ${consul.host}
+      port: ${consul.port}
